@@ -22,7 +22,7 @@ if st.button("Login"):
         st.session_state['logged_in'] = True
         st.session_state['student_data'] = data
         st.success("Login Successful!")
-        st.experimental_rerun()
+        st.rerun()
     else:
         st.error("Galat Roll No ya Password bhai. Pehle SignUp karo.")
 
