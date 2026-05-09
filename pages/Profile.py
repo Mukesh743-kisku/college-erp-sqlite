@@ -42,4 +42,4 @@ if st.button("Logout"):
     st.session_state['logged_in'] = False
     st.session_state['student_data'] = None
     st.success("Logged out successfully!")
-    st.experimental_rerun()
+    st.rerun()
